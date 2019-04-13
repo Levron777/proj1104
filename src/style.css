@@ -20,6 +20,19 @@
     padding: 1rem 1rem;
 }
 
+.navBlock a:hover{
+    font-weight: bold;
+}
+
+.navBlock {
+    float: left;
+}
+
+.nav-link:hover {
+    padding: 1rem 1rem;
+    font-weight: bold;
+}
+
 .nav.flex-column {
     margin-top: 30%;
 }

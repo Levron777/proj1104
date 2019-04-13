@@ -8,7 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="src/style.css">
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>New Project!</title>
   </head>
   <body>
 
@@ -19,31 +20,31 @@
 
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link text-dark font-weight-normal" href="#">Главная</a>
+              <a class="nav-link text-dark" href="#"> <i class="fas fa-home"></i> Главная</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-body" href="#">Мои магазины</a>
+              <a class="nav-link active text-body" href="#"> <i class="fas fa-shopping-cart"></i> Мои магазины</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-body" href="#">Промоматериалы</a>
+              <a class="nav-link text-body" href="#"> <i class="fas fa-bullhorn"></i> Промоматериалы</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-body" href="#">Статистика</a>
+              <a class="nav-link text-body" href="#"> <i class="fas fa-chart-pie"></i> Статистика</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-body" href="#">Баланс</a>
+              <a class="nav-link text-body" href="#"> <i class="fas fa-wallet"></i> Баланс</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-body" href="#">Персональные данные</a>
+              <a class="nav-link text-body" href="#"> <i class="fas fa-user"></i> Персональные данные</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-body" href="#">FAQ</a>
+              <a class="nav-link text-body" href="#"> <i class="far fa-question-circle"></i> FAQ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-body" href="#">Техподдержка</a>
+              <a class="nav-link text-body" href="#"> <i class="fas fa-headset"></i> Техподдержка</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-body" href="#">Выход</a>
+              <a class="nav-link text-body" href="#"> <i class="fas fa-sign-out-alt"></i> Выход</a>
             </li>
           </ul>
 
@@ -53,13 +54,13 @@
             <a class="text-body" href="#">Главная ></a><a class="text-body" href="#"> Мои магазины ></a><a class="text-body" href="#"> Настройки магазина</a>
           </div>
 
-          <div class="usersBlock d-inline">
-            <button type="button" class="btn btn-outline-secondary">конверт</button>
-            <button type="button" class="btn btn-outline-secondary">Максим Добжанский</button>
+          <div class="usersBlock d-flex justify-content-end">
+            <button type="button" class="btn btn-outline-secondary btn-lg"><i class="fas fa-envelope"></i></button>
+            <button type="button" class="btn btn-outline-secondary ml-2 btn-lg"> <i class="far fa-user-circle"></i> Максим Неизвестный</button>
           </div>
           
           <h4>Магазины</h4>
-          <button type="button" class="btn btn-success createShop"> + Создать свой магазин</button>
+          <button type="button" class="btn btn-success createShop"> <i class="fas fa-plus"></i>  Создать свой магазин</button>
           <h4>Управление магазинами</h4>
 
           <div class="tableContainer">
@@ -78,8 +79,8 @@
                   <td>Дипломная работа</td>
                   <td>http://www.work5.ru/services</td>
                   <td>
-                    <button type="button" class="btn btn-success createShop"> Редактировать</button>
-                    <button type="button" class="btn btn-secondary createShop"> Редактировать</button>
+                    <button type="button" class="btn btn-success createShop"> <i class="fas fa-pencil-alt"></i> Редактировать</button>
+                    <button type="button" class="btn btn-secondary createShop"> <i class="fas fa-times"></i> Редактировать</button>
                   </td>
                 </tr>
                 <tr>
@@ -87,8 +88,8 @@
                   <td>Дипломная работа</td>
                   <td>http://www.work5.ru/services</td>
                   <td>
-                    <button type="button" class="btn btn-success createShop"> Редактировать</button>
-                    <button type="button" class="btn btn-secondary createShop"> Редактировать</button>
+                    <button type="button" class="btn btn-success createShop"> <i class="fas fa-pencil-alt"></i> Редактировать</button>
+                    <button type="button" class="btn btn-secondary createShop"> <i class="fas fa-times"></i> Редактировать</button>
                   </td>
                 </tr>
               </tbody>
