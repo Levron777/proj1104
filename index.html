@@ -13,57 +13,65 @@
   </head>
   <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid vh-100">
     <!-- Content here -->
       <div class="row">
-        <div class="col-2">
 
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#"> <i class="fas fa-home"></i> Главная</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active text-body" href="#"> <i class="fas fa-shopping-cart"></i> Мои магазины</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body" href="#"> <i class="fas fa-bullhorn"></i> Промоматериалы</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body" href="#"> <i class="fas fa-chart-pie"></i> Статистика</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body" href="#"> <i class="fas fa-wallet"></i> Баланс</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body" href="#"> <i class="fas fa-user"></i> Персональные данные</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body" href="#"> <i class="far fa-question-circle"></i> FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body" href="#"> <i class="fas fa-headset"></i> Техподдержка</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body" href="#"> <i class="fas fa-sign-out-alt"></i> Выход</a>
-            </li>
-          </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-2 col-sm-0 col-md-0 col-0 pl-0">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        </div>
-        <div class="col-10 jumbotron">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+            <ul class="nav flex-column mt-5">
+              <li class="nav-item">
+                <a class="nav-link text-body px-3 py-3" href="#"> <i class="fas fa-home"></i> Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-body px-3 py-3" href="#"> <i class="fas fa-shopping-cart"></i> Мои магазины</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body px-3 py-3" href="#"> <i class="fas fa-bullhorn"></i> Промоматериалы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body px-3 py-3" href="#"> <i class="fas fa-chart-pie"></i> Статистика</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body px-3 py-3" href="#"> <i class="fas fa-wallet"></i> Баланс</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body px-3 py-3" href="#"> <i class="fas fa-user"></i> Персональные данные</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body px-3 py-3" href="#"> <i class="far fa-question-circle"></i> FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body px-3 py-3" href="#"> <i class="fas fa-headset"></i> Техподдержка</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body px-3 py-3" href="#"> <i class="fas fa-sign-out-alt"></i> Выход</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </nav>
+        <div class="col-lg-10 col-sm-12 col-md-12 col-12 jumbotron vh-100 py-2 px-5 mb-0">
           <div class="navBlock d-inline">
             <a class="text-body" href="#">Главная ></a><a class="text-body" href="#"> Мои магазины ></a><a class="text-body" href="#"> Настройки магазина</a>
           </div>
 
           <div class="usersBlock d-flex justify-content-end">
-            <button type="button" class="btn btn-outline-secondary btn-lg"><i class="fas fa-envelope"></i></button>
-            <button type="button" class="btn btn-outline-secondary ml-2 btn-lg"> <i class="far fa-user-circle"></i> Максим Неизвестный</button>
+            <button type="button" class="btn btn-outline-secondary"><i class="fas fa-envelope"></i></button>
+            <button type="button" class="btn btn-outline-secondary ml-2"> <i class="far fa-user-circle"></i> Максим Неизвестный</button>
           </div>
           
-          <h4>Магазины</h4>
-          <button type="button" class="btn btn-success createShop"> <i class="fas fa-plus"></i>  Создать свой магазин</button>
-          <h4>Управление магазинами</h4>
+          <h4 class="mt-4">Магазины</h4>
+          <button type="button" class="btn btn-sm btn-success createShop mt-4"> <i class="fas fa-plus"></i>  Создать свой магазин</button>
+          <h4 class="mt-4">Управление магазинами</h4>
 
-          <div class="tableContainer">
+          <div class="tableContainer mx-0 mt-4 px-3 py-3">
             <table class="table">
               <thead>
                 <tr>
@@ -79,8 +87,8 @@
                   <td>Дипломная работа</td>
                   <td>http://www.work5.ru/services</td>
                   <td>
-                    <button type="button" class="btn btn-success createShop"> <i class="fas fa-pencil-alt"></i> Редактировать</button>
-                    <button type="button" class="btn btn-secondary createShop"> <i class="fas fa-times"></i> Редактировать</button>
+                    <button type="button" class="btn btn-sm btn-success createShop"> <i class="fas fa-pencil-alt"></i> Редактировать</button>
+                    <button type="button" class="btn btn-sm btn-secondary createShop ml-1"> <i class="fas fa-times"></i> Редактировать</button>
                   </td>
                 </tr>
                 <tr>
@@ -88,8 +96,8 @@
                   <td>Дипломная работа</td>
                   <td>http://www.work5.ru/services</td>
                   <td>
-                    <button type="button" class="btn btn-success createShop"> <i class="fas fa-pencil-alt"></i> Редактировать</button>
-                    <button type="button" class="btn btn-secondary createShop"> <i class="fas fa-times"></i> Редактировать</button>
+                    <button type="button" class="btn btn-sm btn-success createShop"> <i class="fas fa-pencil-alt"></i> Редактировать</button>
+                    <button type="button" class="btn btn-sm btn-secondary createShop ml-1"> <i class="fas fa-times"></i> Редактировать</button>
                   </td>
                 </tr>
               </tbody>

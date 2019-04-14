@@ -1,23 +1,6 @@
-.container-fluid, .jumbotron {
-    height: 100vh;
-}
-
-.jumbotron {
-    padding: 1% 4%;
-}
-
-.col-2 {
-    padding-left: 0;
-}
-
 .nav-link.active {
     font-weight: bold;
     border-left: 3px solid rgb(94, 58, 255);
-    /* box-shadow: inset 1px 0 0 rgba(0,0,0,0.25); */
-}
-
-.nav-link {
-    padding: 1rem 1rem;
 }
 
 .navBlock a:hover{
@@ -33,31 +16,42 @@
     font-weight: bold;
 }
 
-.nav.flex-column {
-    margin-top: 30%;
-}
-
-.col-10 a {
+.navBlock a {
     text-decoration: none;
-    /* font-size: 0.75rem; */
-}
-
-.col-10 h4 {
-    margin-top: 4%;
-}
-
-.btn {
-    /* font-size: 0.75rem; */
-}
-
-.createShop {
-    margin-top: 3%;
 }
 
 .tableContainer {
     background-color: white;
-    padding: 1.5rem;
-    margin-right: 0;
-    margin-left: 0;
-    margin-top: 5%;
+}
+
+@media (max-width: 1201px) { 
+
+    * {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    * {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) { 
+
+    * {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) { 
+    * {
+        font-size: 5px;
+    }
+
+    .btn-sm {
+        font-size: 1px;
+        /* padding:4px 6px; */
+    }
 }
